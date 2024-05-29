@@ -4,7 +4,8 @@ import { Component } from "@angular/core"; //use this to make this header a actu
     selector: 'my-header', //using this selector name we can call this header component
     standalone: true,//other components type are module based , module based or standalone comp
     templateUrl: './header.component.html',
-    styleUrl: './app.component.css'
+    // styles:['h1 { font-color: red; }'],
+    styleUrl: './header.component.css'
 })
 
 

@@ -1,0 +1,21 @@
+<!-- static template -->
+<!-- <div>
+    <button>
+        <img alt/>
+        <span>Name</span>
+    </button>
+</div> -->
+
+
+<!-- dynamic template to show dynamic content -->
+<!-- two properties we can use in angular to showcase dynamic content
+1) String Interpolation 
+2)Property Binding :- if you configure an element ie; wrapping by a property-->
+
+<div>
+    <button>
+        <img [src]="'assets/users/users/' + selectedUser.avatar" alt="Person Image"/>
+        <!-- below is usingString Interpolation  -->
+        <span>{{ selectedUser.name }}</span> 
+    </button>
+</div>
